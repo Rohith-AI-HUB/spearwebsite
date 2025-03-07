@@ -1,9 +1,12 @@
 {
   "headers": [
     {
-      "source": "/video/Chatbot1.mp4",
+      "source": "/video/(.*)",
       "headers": [
-        { "key": "Content-Type", "value": "video/mp4" }
+        {
+          "key": "Content-Type",
+          "value": "video/mp4"
+        }
       ]
     }
   ]
